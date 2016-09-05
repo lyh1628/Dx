@@ -354,7 +354,7 @@ void CAirplanePlayer::ChangeCamera(ID3D11Device *pd3dDevice, DWORD nNewCameraMod
 }
 
 
-#pragma region __CTerrainPlayer__
+//#pragma region __CTerrainPlayer__
 CTerrainPlayer::CTerrainPlayer(int nMeshed) : CPlayer(nMeshes)
 {
 
