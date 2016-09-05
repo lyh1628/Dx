@@ -1,0 +1,70 @@
+﻿  Shader.cpp
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(210): error C2039: 'SetMesh': 'CRotatingObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(72): note: 'CRotatingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(228): error C2039: 'SetMesh': 'CRevolvingObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(92): note: 'CRevolvingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(229): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(237): error C2039: 'SetMesh': 'CRevolvingObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(92): note: 'CRevolvingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(238): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(270): error C2664: 'CAirplanePlayer::CAirplanePlayer(const CAirplanePlayer &)': 인수 1을(를) 'ID3D11Device *'에서 'int'(으)로 변환할 수 없습니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(270): note: 이 변환이 가능한 컨텍스트가 없습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(271): error C2039: 'SetMesh': 'CAirplanePlayer'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.h(99): note: 'CAirplanePlayer' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(368): error C2039: 'SetMesh': 'CRotatingObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(72): note: 'CRotatingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(386): error C2039: 'SetMesh': 'CRevolvingObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(92): note: 'CRevolvingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(394): error C2039: 'SetMesh': 'CRevolvingObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(92): note: 'CRevolvingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(411): error C2039: 'GetMesh': 'CGameObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(13): note: 'CGameObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\shader.cpp(412): error C2039: 'GetMesh': 'CGameObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(13): note: 'CGameObject' 선언을 참조하십시오.
+  Player.cpp
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.cpp(291): error C2511: 'CAirplanePlayer::CAirplanePlayer(ID3D11Device *)': 오버로드된 멤버 함수가 'CAirplanePlayer'에 없습니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.h(99): note: 'CAirplanePlayer' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.cpp(358): error C2065: 'nMeshes': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.cpp(417): error C2065: 'CHeightMapTerrain': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.cpp(417): error C2065: 'pTerrain': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\player.cpp(417): error C2059: 구문 오류: ')'
+  Object.cpp
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(6): error C2511: 'CGameObject::CGameObject(void)': 오버로드된 멤버 함수가 'CGameObject'에 없습니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(13): note: 'CGameObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(7): error C2597: 비정적 멤버 'CGameObject::m_d3dxmtxWorld'에 대한 참조가 잘못되었습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(7): error C2664: 'D3DXMATRIX *D3DXMatrixIdentity(D3DXMATRIX *)': 인수 1을(를) 'D3DXMATRIX CGameObject::* '에서 'D3DXMATRIX *'(으)로 변환할 수 없습니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(7): note: 이 변환이 가능한 컨텍스트가 없습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(8): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(10): error C2597: 비정적 멤버 'CGameObject::m_nReferences'에 대한 참조가 잘못되었습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(12): error C2597: 비정적 멤버 'CGameObject::m_bActive'에 대한 참조가 잘못되었습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(16): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(16): error C2227: '->Release' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(16): note: 'unknown-type' 형식입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(47): error C2039: 'SetMesh': 'CGameObject'의 멤버가 아닙니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(13): note: 'CGameObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(49): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(49): error C2227: '->Release' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(49): note: 'unknown-type' 형식입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(50): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(51): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(51): error C2227: '->AddRef' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(51): note: 'unknown-type' 형식입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(61): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(61): error C2227: '->Render' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(61): note: 'unknown-type' 형식입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(185): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(192): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(192): error C2227: '->CheckRayIntersection' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(192): note: 'unknown-type' 형식입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(203): error C2065: 'm_pMesh': 선언되지 않은 식별자입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(203): error C2227: '->GetBoundingCube' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(203): note: 'unknown-type' 형식입니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(212): error C2511: 'CRotatingObject::CRotatingObject(void)': 오버로드된 멤버 함수가 'CRotatingObject'에 없습니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(72): note: 'CRotatingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(213): error C2597: 비정적 멤버 'CRotatingObject::m_d3dxvRotationAxis'에 대한 참조가 잘못되었습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(214): error C2597: 비정적 멤버 'CRotatingObject::m_fRotationSpeed'에 대한 참조가 잘못되었습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(236): error C2511: 'CRevolvingObject::CRevolvingObject(void)': 오버로드된 멤버 함수가 'CRevolvingObject'에 없습니다.
+  c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.h(92): note: 'CRevolvingObject' 선언을 참조하십시오.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(237): error C2597: 비정적 멤버 'CRevolvingObject::m_d3dxvRevolutionAxis'에 대한 참조가 잘못되었습니다.
+c:\users\hoon\documents\visual studio 2015\projects\labprojecs\labproject08\object.cpp(238): error C2597: 비정적 멤버 'CRevolvingObject::m_fRevolutionSpeed'에 대한 참조가 잘못되었습니다.
+  코드를 생성하고 있습니다...
